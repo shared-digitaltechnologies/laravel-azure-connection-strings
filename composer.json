@@ -2,7 +2,7 @@
     "name": "shrd/laravel-azure-connection-strings",
     "version": "0.1.0",
     "description": "Generated Composer Package",
-    "license": "UNLICENCED",
+    "license": "proprietary",
     "keywords": [],
     "readme": "README.md",
     "require": {
