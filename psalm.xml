@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<psalm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="https://getpsalm.org/schema/config"
+       xsi:schemaLocation="https://getpsalm.org/schema/config ../../../vendor/vimeo/psalm/config.xsd"
+       xmlns:xi="http://www.w3.org/2001/XInclude"
+       autoloader="../../../vendor/autoload.php"
+       cacheDirectory="../../../.psalm/cache/packages/php/laravel-azure-connection-strings">
+    <projectFiles>
+        <directory name="src" />
+    </projectFiles>
+    <forbiddenFunctions>
+        <function name="die" />
+        <function name="var_dump" />
+        <function name="dd" />
+    </forbiddenFunctions>
+</psalm>
